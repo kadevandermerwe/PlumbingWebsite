@@ -12,21 +12,21 @@ export default function TestimonialsSection() {
   const testimonials: Testimonial[] = [
     {
       stars: 5,
-      quote: "Mike showed up promptly and fixed our leaky faucet in no time. He explained everything clearly and even gave us tips to prevent future issues. The price was exactly as quoted - no surprises. Highly recommended!",
-      name: "Sarah Johnson",
-      location: "Oakwood Neighborhood"
+      quote: "Gary showed up promptly and fixed our leaky tap in no time. He explained everything clearly and even gave us tips to prevent future issues. The price was exactly as quoted - no surprises. Absolutely brilliant service!",
+      name: "Emma Wilkinson",
+      location: "Nettleham, Lincoln"
     },
     {
       stars: 5,
-      quote: "When our water heater failed on a Sunday morning, we thought we'd be without hot water for days. FlowFix responded to our emergency call within an hour and had a new unit installed that same day. Great service!",
-      name: "Robert Thompson",
-      location: "Riverside Area"
+      quote: "When our boiler conked out on a Sunday morning, we thought we'd be without hot water for days. FlowFix responded to our emergency call within an hour and had a new unit installed that same day. Absolutely top service!",
+      name: "James Barker",
+      location: "Saxilby, Lincolnshire"
     },
     {
       stars: 5,
-      quote: "We hired FlowFix for a complete bathroom renovation and couldn't be happier with the results. Their attention to detail was impressive, and they kept everything on schedule and within budget. Our new bathroom is beautiful!",
-      name: "Emily & David Clark",
-      location: "Pine Hills Estate"
+      quote: "We hired FlowFix for a complete bathroom renovation and couldn't be happier with the results. Their attention to detail was smashing, and they kept everything on schedule and within budget. Our new bathroom is absolutely gorgeous!",
+      name: "Sophie & Oliver Bennett",
+      location: "Wragby, Lincolnshire"
     }
   ];
   

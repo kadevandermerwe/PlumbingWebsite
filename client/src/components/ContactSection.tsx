@@ -89,7 +89,7 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <h3 className="font-heading font-bold text-2xl mb-2">Brilliant, Thanks!</h3>
-                <p className="text-neutral-dark mb-4">Your message has been sent. We'll ring you back as soon as we can.</p>
+                <p className="text-neutral-dark mb-4">Your message has been sent. We'll give you a bell back shortly.</p>
                 <Button onClick={() => setIsSubmitted(false)} className="bg-accent hover:bg-accent-light text-white">
                   Send Another Message
                 </Button>
@@ -190,7 +190,7 @@ export default function ContactSection() {
                     className="w-full bg-accent hover:bg-accent-light text-white"
                     disabled={isSubmitting}
                   >
-                    {isSubmitting ? "Sending..." : "Get Your Free Quote"}
+                    {isSubmitting ? "Sending..." : "Request Your Free Quote"}
                   </Button>
                 </form>
               </Form>
@@ -218,7 +218,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium">Give Us a Ring</p>
-                    <a href="tel:+441242123456" className="opacity-80 hover:opacity-100 transition-opacity">01242 123 456</a>
+                    <a href="tel:+441522123456" className="opacity-80 hover:opacity-100 transition-opacity">01522 123 456</a>
                   </div>
                 </div>
                 
@@ -228,7 +228,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium">Email Us</p>
-                    <a href="mailto:mike@flowfixplumbing.co.uk" className="opacity-80 hover:opacity-100 transition-opacity">mike@flowfixplumbing.co.uk</a>
+                    <a href="mailto:gary@flowfixplumbing.co.uk" className="opacity-80 hover:opacity-100 transition-opacity">gary@flowfixplumbing.co.uk</a>
                   </div>
                 </div>
                 
@@ -270,7 +270,7 @@ export default function ContactSection() {
                 <div className="text-center">
                   <FaMapMarkedAlt className="text-5xl text-primary mb-4" />
                   <p className="font-medium text-neutral-dark">Where We Work</p>
-                  <p className="text-sm text-neutral">Serving Cheltenham, Gloucester, and all surrounding villages</p>
+                  <p className="text-sm text-neutral">Serving Lincoln, Grimsby, Boston and all surrounding Lincolnshire villages</p>
                 </div>
               </div>
             </div>
