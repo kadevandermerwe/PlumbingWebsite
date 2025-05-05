@@ -48,7 +48,7 @@ export default function Navbar() {
           <a href="tel:+441242123456">
             <Button variant="default" className="bg-accent hover:bg-accent-light text-white rounded-full">
               <FaPhoneAlt className="mr-2" />
-              Call Now
+              Ring Us Today
             </Button>
           </a>
         </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
             <a href="tel:+441242123456" className="w-full">
               <Button variant="default" className="bg-accent hover:bg-accent-light text-white rounded-full w-full justify-center">
                 <FaPhoneAlt className="mr-2" />
-                Call Now
+                Ring Us Today
               </Button>
             </a>
           </div>

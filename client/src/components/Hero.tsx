@@ -12,14 +12,14 @@ export default function Hero() {
               Quality Plumbing, <span className="text-secondary-light">Sorted!</span>
             </h1>
             <p className="mt-4 text-lg md:text-xl opacity-90 max-w-md">
-              Your friendly neighbourhood plumber, providing proper workmanship at fair prices since 2005.
+              Your friendly local plumber, providing top-notch workmanship and value for money across Cheltenham since 2005.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button asChild className="bg-accent hover:bg-accent-light px-6 py-6 rounded-full font-heading font-bold text-lg">
-                <Link href="/contact">Get a Free Quote</Link>
+                <Link href="/contact">Request a Free Quote</Link>
               </Button>
               <Button asChild variant="outline" className="bg-white text-primary hover:bg-neutral-light px-6 py-6 rounded-full font-heading font-bold text-lg">
-                <a href="tel:+15551234567">
+                <a href="tel:+441242123456">
                   <FaPhoneAlt className="mr-2" />
                   Ring Us Now
                 </a>
@@ -37,7 +37,7 @@ export default function Hero() {
                     <FaStar key={i} />
                   ))}
                 </div>
-                <p className="text-sm">Over 500+ satisfied customers</p>
+                <p className="text-sm">Over 500+ happy customers in Gloucestershire</p>
               </div>
             </div>
           </div>
