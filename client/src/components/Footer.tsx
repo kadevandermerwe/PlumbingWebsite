@@ -19,7 +19,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="opacity-80 mb-4">
-              Your trusted local plumber providing quality service since 2005. Licensed, insured, and committed to excellence.
+              Your friendly local plumber serving the community since 2005. Fully qualified, insured, and trusted throughout the area.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity">
@@ -51,9 +51,9 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-bold text-lg mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Leak Repairs</a></Link></li>
-              <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Boiler Installations</a></Link></li>
-              <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Drain Unblocking</a></Link></li>
+              <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Leaky Taps & Pipes</a></Link></li>
+              <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Boiler Fitting</a></Link></li>
+              <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Blocked Drains</a></Link></li>
               <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Bathroom Fitting</a></Link></li>
               <li><Link href="/services"><a className="opacity-80 hover:opacity-100 hover:text-accent transition-colors">Emergency Call-Outs</a></Link></li>
             </ul>

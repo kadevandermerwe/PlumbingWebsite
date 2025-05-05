@@ -199,7 +199,7 @@ export default function ContactSection() {
           
           <div className="lg:w-1/2">
             <div className="bg-primary text-white p-8 rounded-xl mb-8">
-              <h3 className="font-heading font-bold text-2xl mb-6">Contact Information</h3>
+              <h3 className="font-heading font-bold text-2xl mb-6">Get In Touch</h3>
               
               <div className="space-y-4">
                 <div className="flex items-start">
@@ -207,8 +207,8 @@ export default function ContactSection() {
                     <FaMapMarkerAlt className="text-2xl" />
                   </div>
                   <div>
-                    <p className="font-medium">Our Address</p>
-                    <p className="opacity-80">123 Plumbing Lane, Watertown, NY 12345</p>
+                    <p className="font-medium">Find Us Here</p>
+                    <p className="opacity-80">123 High Street, Cheltenham, GL50 1EE</p>
                   </div>
                 </div>
                 
@@ -217,8 +217,8 @@ export default function ContactSection() {
                     <FaPhoneAlt className="text-2xl" />
                   </div>
                   <div>
-                    <p className="font-medium">Phone Number</p>
-                    <a href="tel:+15551234567" className="opacity-80 hover:opacity-100 transition-opacity">(555) 123-4567</a>
+                    <p className="font-medium">Give Us a Ring</p>
+                    <a href="tel:+441242123456" className="opacity-80 hover:opacity-100 transition-opacity">01242 123 456</a>
                   </div>
                 </div>
                 
@@ -227,8 +227,8 @@ export default function ContactSection() {
                     <FaEnvelope className="text-2xl" />
                   </div>
                   <div>
-                    <p className="font-medium">Email Address</p>
-                    <a href="mailto:info@flowfixplumbing.com" className="opacity-80 hover:opacity-100 transition-opacity">info@flowfixplumbing.com</a>
+                    <p className="font-medium">Email Us</p>
+                    <a href="mailto:mike@flowfixplumbing.co.uk" className="opacity-80 hover:opacity-100 transition-opacity">mike@flowfixplumbing.co.uk</a>
                   </div>
                 </div>
                 
@@ -237,16 +237,16 @@ export default function ContactSection() {
                     <FaClock className="text-2xl" />
                   </div>
                   <div>
-                    <p className="font-medium">Business Hours</p>
+                    <p className="font-medium">When We're About</p>
                     <p className="opacity-80">Mon-Fri: 8am-6pm</p>
                     <p className="opacity-80">Sat: 9am-4pm</p>
-                    <p className="opacity-80">Emergency service available 24/7</p>
+                    <p className="opacity-80">Emergency call-outs available 24/7</p>
                   </div>
                 </div>
               </div>
               
               <div className="mt-8">
-                <p className="font-medium mb-2">Connect With Us</p>
+                <p className="font-medium mb-2">Find Us Online</p>
                 <div className="flex space-x-4">
                   <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
                     <FaFacebookF className="text-white" />
@@ -269,8 +269,8 @@ export default function ContactSection() {
               <div className="w-full h-full bg-neutral-light flex items-center justify-center">
                 <div className="text-center">
                   <FaMapMarkedAlt className="text-5xl text-primary mb-4" />
-                  <p className="font-medium text-neutral-dark">Our Service Area</p>
-                  <p className="text-sm text-neutral">We serve the entire metropolitan area and surrounding suburbs</p>
+                  <p className="font-medium text-neutral-dark">Where We Work</p>
+                  <p className="text-sm text-neutral">Serving Cheltenham, Gloucester, and all surrounding villages</p>
                 </div>
               </div>
             </div>
