@@ -60,19 +60,19 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-heading font-bold text-lg mb-4">Contact Us</h4>
+            <h4 className="font-heading font-bold text-lg mb-4">Get in Touch</h4>
             <ul className="space-y-2">
               <li className="flex items-center">
                 <FaMapMarkerAlt className="mr-2 text-accent" />
-                <span className="opacity-80">123 Plumbing Lane, Watertown, NY 12345</span>
+                <span className="opacity-80">123 High Street, Cheltenham, GL50 1EE</span>
               </li>
               <li className="flex items-center">
                 <FaPhoneAlt className="mr-2 text-accent" />
-                <a href="tel:+15551234567" className="opacity-80 hover:opacity-100 transition-opacity">(555) 123-4567</a>
+                <a href="tel:+441242123456" className="opacity-80 hover:opacity-100 transition-opacity">01242 123 456</a>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 text-accent" />
-                <a href="mailto:info@flowfixplumbing.com" className="opacity-80 hover:opacity-100 transition-opacity">info@flowfixplumbing.com</a>
+                <a href="mailto:mike@flowfixplumbing.co.uk" className="opacity-80 hover:opacity-100 transition-opacity">mike@flowfixplumbing.co.uk</a>
               </li>
               <li className="flex items-center">
                 <FaClock className="mr-2 text-accent" />
@@ -84,12 +84,12 @@ export default function Footer() {
         
         <div className="border-t border-white/20 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="opacity-80 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} FlowFix Plumbing. All rights reserved.
+            &copy; {currentYear} FlowFix Plumbing Ltd. Registered in England & Wales.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm opacity-80">
             <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
             <span className="hidden md:inline">|</span>
-            <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-accent transition-colors">Terms & Conditions</a>
             <span className="hidden md:inline">|</span>
             <a href="#" className="hover:text-accent transition-colors">Sitemap</a>
           </div>

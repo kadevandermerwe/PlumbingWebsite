@@ -45,10 +45,12 @@ export default function Navbar() {
               </a>
             </Link>
           ))}
-          <Button variant="default" className="bg-accent hover:bg-accent-light text-white rounded-full">
-            <FaPhoneAlt className="mr-2" />
-            <a href="tel:+15551234567">Call Now</a>
-          </Button>
+          <a href="tel:+441242123456">
+            <Button variant="default" className="bg-accent hover:bg-accent-light text-white rounded-full">
+              <FaPhoneAlt className="mr-2" />
+              Call Now
+            </Button>
+          </a>
         </div>
         
         {/* Mobile menu button */}
@@ -71,10 +73,12 @@ export default function Navbar() {
                 </a>
               </Link>
             ))}
-            <Button variant="default" className="bg-accent hover:bg-accent-light text-white rounded-full w-full justify-center">
-              <FaPhoneAlt className="mr-2" />
-              <a href="tel:+15551234567">Call Now</a>
-            </Button>
+            <a href="tel:+441242123456" className="w-full">
+              <Button variant="default" className="bg-accent hover:bg-accent-light text-white rounded-full w-full justify-center">
+                <FaPhoneAlt className="mr-2" />
+                Call Now
+              </Button>
+            </a>
           </div>
         </div>
       )}
