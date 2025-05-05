@@ -6,18 +6,18 @@ export default function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2 order-2 lg:order-1">
-            <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">About FlowFix Plumbing</h2>
+            <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-4">Meet FlowFix Plumbing</h2>
             
             <p className="text-neutral-dark mb-4">
-              Founded in 2005 by master plumber Mike Johnson, FlowFix Plumbing has grown from a one-man operation to a trusted team of professional plumbers serving the entire metropolitan area.
+              Started back in 2005 by Mike Johnson (a proper qualified plumber), FlowFix has grown from just Mike with his van to a friendly team of local plumbers serving the whole area.
             </p>
             
             <p className="text-neutral-dark mb-4">
-              With over 15 years of experience in residential and commercial plumbing, we've built our reputation on honest work, fair pricing, and exceptional customer service. Our team is fully licensed, insured, and background-checked for your peace of mind.
+              With over 15 years of sorting out all sorts of plumbing niggles in homes and businesses, we've built our good name on honest work, fair prices, and simply being nice to our customers. Everyone on our team is fully qualified, insured, and DBS-checked so you can feel perfectly safe.
             </p>
             
             <p className="text-neutral-dark mb-6">
-              We believe in doing the job right the first time, using quality materials and the latest techniques to ensure lasting results. From small repairs to complete installations, we treat every home as if it were our own.
+              We believe in getting the job done properly first time round, using good quality parts and modern methods to make sure things don't break again. Whether it's a wobbly tap or a brand new bathroom, we'll treat your home like our own mum's house.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
@@ -33,15 +33,15 @@ export default function AboutSection() {
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center bg-neutral-light px-4 py-2 rounded-full">
                 <FaCheckCircle className="text-accent mr-2" />
-                <span className="font-medium">Licensed & Insured</span>
+                <span className="font-medium">Fully Qualified & Insured</span>
               </div>
               <div className="flex items-center bg-neutral-light px-4 py-2 rounded-full">
                 <FaCheckCircle className="text-accent mr-2" />
-                <span className="font-medium">15+ Years Experience</span>
+                <span className="font-medium">15+ Years' Experience</span>
               </div>
               <div className="flex items-center bg-neutral-light px-4 py-2 rounded-full">
                 <FaCheckCircle className="text-accent mr-2" />
-                <span className="font-medium">Background-Checked Team</span>
+                <span className="font-medium">DBS-Checked Team</span>
               </div>
             </div>
           </div>
@@ -57,8 +57,8 @@ export default function AboutSection() {
                     <FaAward />
                   </div>
                   <div>
-                    <p className="font-heading font-bold">Best Plumbing Service</p>
-                    <p className="text-sm text-neutral-dark">Local Business Awards 2022</p>
+                    <p className="font-heading font-bold">Top Plumbing Service</p>
+                    <p className="text-sm text-neutral-dark">Local Traders Award 2022</p>
                   </div>
                 </div>
               </div>
