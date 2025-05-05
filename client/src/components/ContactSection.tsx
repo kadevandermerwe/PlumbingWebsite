@@ -70,15 +70,15 @@ export default function ContactSection() {
     <section id="contact" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary">Contact Us</h2>
+          <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary">Get in Touch</h2>
           <p className="mt-2 text-lg text-neutral-dark max-w-xl mx-auto">
-            Get in touch for a free quote or to schedule a service appointment
+            Drop us a line for a free quote or to book a visit - we're always happy to help
           </p>
         </div>
         
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="lg:w-1/2 bg-neutral-light p-8 rounded-xl">
-            <h3 className="font-heading font-bold text-2xl mb-6">Send Us a Message</h3>
+            <h3 className="font-heading font-bold text-2xl mb-6">Drop Us a Line</h3>
             
             {isSubmitted ? (
               <div className="text-center py-8">
@@ -88,8 +88,8 @@ export default function ContactSection() {
                     <polyline points="22 4 12 14.01 9 11.01"></polyline>
                   </svg>
                 </div>
-                <h3 className="font-heading font-bold text-2xl mb-2">Thank You!</h3>
-                <p className="text-neutral-dark mb-4">Your message has been sent successfully. We'll get back to you shortly.</p>
+                <h3 className="font-heading font-bold text-2xl mb-2">Brilliant, Thanks!</h3>
+                <p className="text-neutral-dark mb-4">Your message has been sent. We'll ring you back as soon as we can.</p>
                 <Button onClick={() => setIsSubmitted(false)} className="bg-accent hover:bg-accent-light text-white">
                   Send Another Message
                 </Button>
@@ -103,9 +103,9 @@ export default function ContactSection() {
                       name="name"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Full Name</FormLabel>
+                          <FormLabel>Your Name</FormLabel>
                           <FormControl>
-                            <Input placeholder="Your name" {...field} />
+                            <Input placeholder="What should we call you?" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -118,7 +118,7 @@ export default function ContactSection() {
                         <FormItem>
                           <FormLabel>Phone Number</FormLabel>
                           <FormControl>
-                            <Input placeholder="Your phone number" {...field} />
+                            <Input placeholder="Best number to reach you on" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -131,9 +131,9 @@ export default function ContactSection() {
                     name="email"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Email Address</FormLabel>
+                        <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="Your email address" {...field} />
+                          <Input placeholder="So we can send you the quote" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -153,13 +153,13 @@ export default function ContactSection() {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="leak-repair">Leak Repair</SelectItem>
-                            <SelectItem value="boiler-installation">Boiler Installation</SelectItem>
-                            <SelectItem value="drain-unblocking">Drain Unblocking</SelectItem>
+                            <SelectItem value="leak-repair">Leaky Taps & Pipes</SelectItem>
+                            <SelectItem value="boiler-installation">Boiler Fitting</SelectItem>
+                            <SelectItem value="drain-unblocking">Blocked Drains</SelectItem>
                             <SelectItem value="bathroom-fitting">Bathroom Fitting</SelectItem>
-                            <SelectItem value="pipe-replacement">Pipe Replacement</SelectItem>
+                            <SelectItem value="pipe-replacement">Pipe Replacements</SelectItem>
                             <SelectItem value="emergency">Emergency Call-Out</SelectItem>
-                            <SelectItem value="other">Other (please specify)</SelectItem>
+                            <SelectItem value="other">Other Issue (please explain)</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -172,10 +172,10 @@ export default function ContactSection() {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Your Message</FormLabel>
+                        <FormLabel>Tell Us About Your Problem</FormLabel>
                         <FormControl>
                           <Textarea 
-                            placeholder="Please describe what you need help with" 
+                            placeholder="Let us know what's gone wrong and we'll sort it for you" 
                             rows={4}
                             {...field} 
                           />
@@ -190,7 +190,7 @@ export default function ContactSection() {
                     className="w-full bg-accent hover:bg-accent-light text-white"
                     disabled={isSubmitting}
                   >
-                    {isSubmitting ? "Sending..." : "Send Message"}
+                    {isSubmitting ? "Sending..." : "Get Your Free Quote"}
                   </Button>
                 </form>
               </Form>
