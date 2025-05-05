@@ -64,15 +64,15 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <FaMapMarkerAlt className="mr-2 text-accent" />
-                <span className="opacity-80">123 High Street, Cheltenham, GL50 1EE</span>
+                <span className="opacity-80">27 Market Place, Lincoln, LN2 1HG</span>
               </li>
               <li className="flex items-center">
                 <FaPhoneAlt className="mr-2 text-accent" />
-                <a href="tel:+441242123456" className="opacity-80 hover:opacity-100 transition-opacity">01242 123 456</a>
+                <a href="tel:+441522123456" className="opacity-80 hover:opacity-100 transition-opacity">01522 123 456</a>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2 text-accent" />
-                <a href="mailto:mike@flowfixplumbing.co.uk" className="opacity-80 hover:opacity-100 transition-opacity">mike@flowfixplumbing.co.uk</a>
+                <a href="mailto:gary@flowfixplumbing.co.uk" className="opacity-80 hover:opacity-100 transition-opacity">gary@flowfixplumbing.co.uk</a>
               </li>
               <li className="flex items-center">
                 <FaClock className="mr-2 text-accent" />

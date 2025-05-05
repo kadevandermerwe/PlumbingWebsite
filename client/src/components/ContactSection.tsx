@@ -208,7 +208,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium">Find Us Here</p>
-                    <p className="opacity-80">123 High Street, Cheltenham, GL50 1EE</p>
+                    <p className="opacity-80">27 Market Place, Lincoln, LN2 1HG</p>
                   </div>
                 </div>
                 
